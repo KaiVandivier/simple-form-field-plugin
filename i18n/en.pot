@@ -1,0 +1,18 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2025-07-21T14:12:26.763Z\n"
+"PO-Revision-Date: 2025-07-21T14:12:26.764Z\n"
+
+msgid "Example plugin"
+msgstr "Example plugin"
+
+msgid "Populate form fields"
+msgstr "Populate form fields"
+
+msgid "Log plugin props"
+msgstr "Log plugin props"
