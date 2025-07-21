@@ -1,5 +1,7 @@
 ## Instructions
 
+See also the [Capture Form Field Plugin docs](https://developers.dhis2.org/docs/capture-plugins/developer/form-field-plugins/introduction)
+
 ### Install the plugin
 
 The same way that you would with a normal web app:
