@@ -1,3 +1,31 @@
+## Instructions
+
+### Install the plugin
+
+The same way that you would with a normal web app:
+
+1. Build the plugin: `yarn && yarn build`
+2. Deploy it to an instance: `yarn deploy http://localhost:8080 --username admin --password district`
+
+### Configure the plugin
+
+1. Use the App Management app > App Hub tab to install the Tracker Plugin Configurator app
+2. Open the Tracker Plugin Configurator app
+3. In the app, add datastore keys (recommended to do as a user with the "ALL" authority)
+4. In the Form Field Plugins sectino, click "Add a configuration"
+5. Choose a program: I recommend the TB program on demo instances
+6. Viewing the program, click "Add an element"
+7. Pick the Simple Form Field Plugin from the list
+8. Click the ⚠️ icon for the Simple Form Field Plugin -- here, you can map values from the form in Capture to the plugin
+    1. Only fields mapped here will be available to the plugin to see or set the value for
+    2. The value in the "Plugin alias" field will become the key for that attribute in the plugin
+
+### View in the Capture app
+
+Enter the chosen program, then add a new person/tracked entity. The plugin should be visible in the form
+
+---
+
 This project was bootstrapped with [DHIS2 Application Platform](https://github.com/dhis2/app-platform).
 
 ## Available Scripts
